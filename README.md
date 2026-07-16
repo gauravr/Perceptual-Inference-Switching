@@ -14,8 +14,8 @@ The models utilize circular statistics, specifically **von Mises distributions**
 *   **Switching Observer:** Implements a heuristic strategy that probabilistically switches between prior mean and sensory evidence, successfully predicting bimodal estimate distributions[cite: 1].
 
 ## File Structure
-*   `data_updated.csv`: Processed behavioral data, including trial-by-trial history calculations (`prev_motion`)[cite: 1].
-*   `params_updated.csv`: Fitted model parameters, including `alpha_attr` (attraction) and `alpha_rep` (repulsion) weights[cite: 1].
+*   `data.csv`: Processed behavioral data.
+*   `params.csv`: Fitted model parameters.
 
 ## Getting Started
 1. **Prerequisites**: Ensure you have dependecies installed present in pip-requirements.txt file.
@@ -25,4 +25,4 @@ The models utilize circular statistics, specifically **von Mises distributions**
    ipython models/bayesian.py  
    ```
 ## References
-Laquitaine, S., & Gardner, J. L. (2018). A Switching Observer for Human Perceptual Estimation. *Neuron*, 97(2), 462-474[cite: 1].
+[Laquitaine, S., & Gardner, J. L. (2018). A Switching Observer for Human Perceptual Estimation. *Neuron*, 97(2), 462-474](https://pubmed.ncbi.nlm.nih.gov/29290551/).
